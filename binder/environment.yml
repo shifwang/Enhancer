@@ -9,8 +9,9 @@ dependencies:
   - conda-forge::pyspark=2.4.0
   - conda-forge::pyfpgrowth=1.0
   - conda-forge::rpy2=3.3.2
-  - conda-forge::auto-sklearn=0.8.0
+  - conda-forge::pip=20.2.2
   - pip:
+    - auto-sklearn=0.8.0
     - git+https://github.com/Yu-Group/iterative-Random-Forest.git@bd85f69e3
     - git+https://github.com/shifwang/treeinterpreter.git@6ea6e91
 
